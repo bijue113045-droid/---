@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 22
       - run: npm install --legacy-peer-deps
-      - run: npm run build -- --base=/bijue113045-droid/
+      - run: npm run build -- --base=/bijue113045-droid/---/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
